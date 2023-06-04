@@ -17,8 +17,8 @@ export default function Home() {
                         structures, compiler construction, etc. - as well as the concrete application of
                         those theories.
                     </p>
-                    <Icon srcImg='react.png' alt='React logo' />
-                    <Icon srcImg='typescript.png' alt='TypeScript logo' />
+                    <Icon srcImg='react.png' altText='React logo' />
+                    <Icon srcImg='typescript.png' altText='TypeScript logo' />
                     <p>
                         In the Projects tab, you can see a handful of the projects I've completed and 
                         released while at UCF. Although some of these projects were done independently,

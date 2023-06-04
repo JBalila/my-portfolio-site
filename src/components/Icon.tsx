@@ -1,21 +1,21 @@
 interface IconProps {
     srcImg: string,
-    alt: string,
+    altText: string,
     link?: string
 }
 
 const IMAGES_FOLDER = 'images/';
 
-export default function Icon({srcImg, alt, link}: IconProps) {
+export default function Icon({srcImg, altText, link}: IconProps) {
 
     if (link)
         return(
             <a className='icon-wrapper' href={link}>
-                <img src={IMAGES_FOLDER + srcImg} alt={alt} />
+                <img src={IMAGES_FOLDER + srcImg} alt={altText} />
             </a>
         );
     else
         return(
-            <img src={IMAGES_FOLDER + srcImg} alt={alt} />
+            <img src={IMAGES_FOLDER + srcImg} alt={altText} />
         );
 }

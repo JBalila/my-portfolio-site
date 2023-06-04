@@ -10,8 +10,8 @@ export default function Navbar() {
             </div>
 
             <div className='right-side'>
-                <Icon srcImg='github.png' alt='Links to Github' link='https://github.com/JBalila' />
-                <Icon srcImg='linkedin.png' alt='Links to LinkedIn' link='https://linkedin.com/in/joshuaybalila' />
+                <Icon srcImg='github.png' altText='Links to Github' link='https://github.com/JBalila' />
+                <Icon srcImg='linkedin.png' altText='Links to LinkedIn' link='https://linkedin.com/in/joshuaybalila' />
             </div>
         </div>
     );
