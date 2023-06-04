@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 interface NavButtonProps {
     name: string,
     link: string,
@@ -6,8 +8,8 @@ interface NavButtonProps {
 
 export default function NavButton({name, link, active}: NavButtonProps) {
     return(
-        <a id={active ? 'nav-button-active' : ''} className='navbar-button' href={link}>
+        <Link id={active ? 'nav-button-active' : ''} className='navbar-button' to={link}>
             {name}
-        </a>
+        </Link>
     );
 }
