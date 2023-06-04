@@ -91,11 +91,40 @@ html {
 /* Home page */
 .home-container {
   display: flex;
+  flex-direction: row;
   height: 86.5%;
+
+  background-color: rgb(216, 230, 245);
+}
+
+.home-bio {
+  width: 30%;
+  height: 100%;
+
+  padding-left: 1.2rem;
+}
+
+.home-pics {
+  width: 40%;
+  height: 100%;
+}
+
+.home-skills {
+  width: 30%;
+  height: 100%;
+
+  padding-right: 1.2rem;
+  text-align: right;
+}
+
+.sub-heading {
+  margin-bottom: 0rem;
 }
 
 /* Projects page */
 .projects-container {
   display: flex;
   height: 86.5%;
+
+  background-color: rgb(216, 230, 245);
 }

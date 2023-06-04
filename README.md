@@ -3,10 +3,9 @@
 This is the repository for my portfolio website, containing:
     
     - A 'Home' page with my Github and LinkedIn links, ways to contact me, and a list of my technical skills
-    - An 'About' page with a quick bio and my picture
-    - A 'Projects' page showcasing my work
+    - A 'Projects' page showcasing my work throughout the years
 
-This website was built using the React framework with Typescript and styled with CSS
+This website was built using the React framework with Typescript and styled with CSS.
 
 ## Deployment
 
