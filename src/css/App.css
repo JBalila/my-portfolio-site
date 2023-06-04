@@ -3,6 +3,11 @@
   src: local('Lato'), url('./Lato.ttf') format('truetype');
 }
 
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
 /* General stylings */
 html {
   background-color: whitesmoke;
@@ -95,6 +100,7 @@ html {
   height: 86.5%;
 
   background-color: rgb(216, 230, 245);
+  animation: fadeIn 1.5s;
 }
 
 .home-bio {
@@ -130,6 +136,7 @@ html {
   height: 86.5%;
 
   background-color: rgb(216, 230, 245);
+  animation: fadeIn 3s;
 }
 
 .card-wrapper {
