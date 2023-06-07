@@ -12,7 +12,7 @@ export default function Icon({srcImg, altText, link}: IconProps) {
 
     if (link)
         return(
-            <a className='icon-wrapper' href={link}>
+            <a className='icon-wrapper' href={link} target='_blank' rel='noreferrer noopener'>
                 <img src={IMAGES_FOLDER + srcImg} alt={altText} />
             </a>
         );
