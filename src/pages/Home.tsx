@@ -4,7 +4,7 @@ import Icon from '../components/Icon';
 
 export default function Home() {
     return(
-        <>
+        <div className='page'>
             <Navbar />
             <div className='home-container'>
                 {/* Left third of page */}
@@ -56,6 +56,6 @@ export default function Home() {
                 </div>
             </div>
             <Footer />
-        </>
+        </div>
     );
 }

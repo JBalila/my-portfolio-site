@@ -4,7 +4,7 @@ import Card from '../components/Card';
 
 export default function Projects() {
     return(
-        <>
+        <div className='page'>
             <Navbar />
             <div className='projects-container'>
                 <Card imgSrc='synesthize.png'
@@ -26,6 +26,6 @@ export default function Projects() {
                     link='https://github.com/JBalila/art-share' />
             </div>
             <Footer />
-        </>
+        </div>
     );
 }

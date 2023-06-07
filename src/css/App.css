@@ -14,28 +14,33 @@ html {
   font-family: 'Lato';
 }
 
-.App {
-  height: 100vh;
-  width: 100vw;
+.page {
+  height: 100%;
+  width: 100%;
 }
 
 /* Navbar */
 .navbar-container {
   top: 0;
   width: 100%;
-  height: 10%;
+  height: 5rem;
   background-color: rgb(98, 111, 124);
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  position: sticky;
+  z-index: 1000;
 }
 
 .navbar-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 16%;
+  width: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
   height: 100%;
   color: azure;
   text-decoration: none;
@@ -49,7 +54,8 @@ html {
 .icon-wrapper {
   display: flex;
   justify-content: center;
-  width: 14%;
+  height: 75%;
+  margin-right: 1.5rem;
 }
 
 .icon-wrapper:hover {
@@ -66,6 +72,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  align-items: center;
   width: 50%;
 }
 
@@ -73,13 +80,20 @@ html {
 .footer-container {
   bottom: 0;
   width: 100%;
-  height: 3.5%;
+  height: 1.75rem;
   background-color: rgb(98, 111, 124);
 
-  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
   color: azure;
   text-decoration: none;
   font-size: 13px;
+
+  position: sticky;
+  z-index: 1000;
 }
 
 .footer-container p {
@@ -90,14 +104,15 @@ html {
 .footer-container a {
   text-decoration: none;
   text-decoration: underline;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 /* Home page */
 .home-container {
   display: flex;
   flex-direction: row;
-  height: 86.5%;
+  height: 100%;
+  min-height: 100vh;
 
   background-color: rgb(216, 230, 245);
   animation: fadeIn 1.5s;
@@ -133,7 +148,8 @@ html {
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
-  height: 86.5%;
+  height: 100%;
+  min-height: 100vh;
 
   background-color: rgb(216, 230, 245);
   animation: fadeIn 3s;
