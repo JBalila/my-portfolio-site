@@ -8,13 +8,8 @@
   100% {opacity: 1;}
 }
 
-/* General stylings */
-html {
-  background-color: whitesmoke;
-  font-family: 'Lato';
-}
-
 .page {
   height: 100%;
   width: 100%;
+  font-family: 'Lato';
 }
