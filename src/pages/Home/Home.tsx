@@ -1,6 +1,8 @@
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import Icon from '../components/Icon';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
+import Icon from '../../components/Icon/Icon';
+
+import './home.css';
 
 export default function Home() {
     return(

@@ -1,0 +1,44 @@
+.navbar-container {
+    top: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(98, 111, 124);
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    position: sticky;
+    z-index: 1000;
+  }
+  
+  .navbar-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 100%;
+    color: azure;
+    text-decoration: none;
+    font-size: 26px;
+  }
+  
+  .navbar-button:hover {
+    background-color: rgb(81, 91, 102);
+  }
+  
+  .left-side {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+  }
+  
+  .right-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+  }

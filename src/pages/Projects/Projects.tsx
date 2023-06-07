@@ -1,6 +1,8 @@
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import Card from '../components/Card';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
+import Card from '../../components/Card/Card';
+
+import './projects.css';
 
 export default function Projects() {
     return(

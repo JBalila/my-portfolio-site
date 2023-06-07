@@ -1,3 +1,5 @@
+import './card.css';
+
 interface CardProps {
     imgSrc: string,
     imgText: string,

@@ -1,3 +1,5 @@
+import './icon.css';
+
 interface IconProps {
     srcImg: string,
     altText: string,

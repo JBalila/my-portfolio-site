@@ -1,12 +1,9 @@
-// Library imports
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-// Component imports
-import Home from './pages/Home';
-import Projects from './pages/Projects';
+import Home from './pages/Home/Home';
+import Projects from './pages/Projects/Projects';
 
-// CSS imports
 import './css/App.css';
 
 function App() {

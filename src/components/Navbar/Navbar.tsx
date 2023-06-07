@@ -1,5 +1,7 @@
 import NavButton from './NavButton';
-import Icon from './Icon';
+import Icon from '../Icon/Icon';
+
+import './navbar.css';
 
 export default function Navbar() {
     return(
