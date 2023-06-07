@@ -1,10 +1,10 @@
-.icon-wrapper {
+.icon-link-wrapper {
   display: flex;
   justify-content: center;
   height: 75%;
   margin-right: 1.5rem;
 }
 
-.icon-wrapper:hover {
+.icon-link-wrapper:hover {
   background-color: rgb(81, 91, 102);
 }

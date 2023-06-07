@@ -1,6 +1,6 @@
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
-import Icon from '../../components/Icon/Icon';
+import { IMAGES_FOLDER } from '../../functions/globalConstants';
 
 import './home.css';
 
@@ -11,7 +11,7 @@ export default function Home() {
             <div className='home-container'>
                 {/* Left third of page */}
                 <div className='home-bio'>
-                    <h2>Hello! I'm Joshua Balila.</h2>
+                    <h2 className='home-header'>Hello! I'm Joshua Balila.</h2>
                     <p>
                         I'm a recent graduate from the University of Central Florida, having obtained a
                         Bachelor's degree in Computer Science. In my studies at UCF, I was able to learn
@@ -19,8 +19,8 @@ export default function Home() {
                         structures, compiler construction, etc. - as well as the concrete application of
                         those theories.
                     </p>
-                    <Icon srcImg='react.png' altText='React logo' />
-                    <Icon srcImg='typescript.png' altText='TypeScript logo' />
+                    <img className='home-logo' src={`${IMAGES_FOLDER}/react.png`} alt='React logo' />
+                    <img className='home-logo' src={`${IMAGES_FOLDER}/typescript.png`} alt='TypeScript logo' />
                     <p>
                         In the Projects tab, you can see a handful of the projects I've completed and 
                         released while at UCF. Although some of these projects were done independently,
@@ -31,12 +31,13 @@ export default function Home() {
 
                 {/* Middle third of page */}
                 <div className='home-pics'>
+                    <img className='home-headshot' src={`${IMAGES_FOLDER}/headshot.png`} alt='Headshot portrait of myself' />
                 </div>
 
                 {/* Right third of page */}
                 <div className='home-skills'>
-                    <h2>Education</h2>
-                    <b>University of Central Florida - Honors College, Orlando, FL</b>
+                    <h2 className='home-header'>Education</h2>
+                    <h4 className='home-sub-header'>University of Central Florida - Honors College, Orlando, FL</h4>
                     <p>
                         Bachelor of Science in Computer Science, specializing in Software Engineering
                         and Full-Stack Development
@@ -46,14 +47,14 @@ export default function Home() {
                     </p>
                     <br />
 
-                    <h2>Technical Skills</h2>
-                    <h4 className='sub-heading'>Computer Languages</h4>
+                    <h2 className='home-header'>Technical Skills</h2>
+                    <h4 className='home-sub-header'>Computer Languages</h4>
                     <p>C, C++, Java, HTML5, Javascript/Typescript, Node.js, Python</p>
 
-                    <h4 className='sub-heading'>Frameworks</h4>
+                    <h4 className='home-sub-header'>Frameworks</h4>
                     <p>React, LAMP stack, MERN stack</p>
 
-                    <h4 className='sub-heading'>Database Management</h4>
+                    <h4 className='home-sub-header'>Database Management</h4>
                     <p>MongoDB, MySQL</p>
                 </div>
             </div>

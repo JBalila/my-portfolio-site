@@ -1,5 +1,5 @@
 import NavButton from './NavButton';
-import Icon from '../Icon/Icon';
+import IconLink from '../Icon/IconLink';
 
 import './navbar.css';
 
@@ -12,8 +12,8 @@ export default function Navbar() {
             </div>
 
             <div className='right-side'>
-                <Icon srcImg='github.svg' altText='Links to Github' link='https://github.com/JBalila' />
-                <Icon srcImg='linkedin.svg' altText='Links to LinkedIn' link='https://linkedin.com/in/joshuaybalila' />
+                <IconLink srcImg='github.svg' altText='Links to Github' link='https://github.com/JBalila' />
+                <IconLink srcImg='linkedin.svg' altText='Links to LinkedIn' link='https://linkedin.com/in/joshuaybalila' />
             </div>
         </div>
     );
