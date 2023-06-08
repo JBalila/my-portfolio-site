@@ -7,7 +7,7 @@ import './projects.css';
 export default function Projects() {
     return(
         <div className='page'>
-            <Navbar />
+            <Navbar currentPage='Projects' />
             <div className='projects-container'>
                 <Card imgSrc='synesthize.png'
                     imgText='Synesthize - A website and corresponding application designed to convert

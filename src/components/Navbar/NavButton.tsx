@@ -5,12 +5,12 @@ import './navbar.css';
 interface NavButtonProps {
     name: string,
     link: string,
-    active?: boolean
+    currentPage: string
 }
 
-export default function NavButton({name, link, active}: NavButtonProps) {
+export default function NavButton({name, link, currentPage}: NavButtonProps) {
     return(
-        <Link id={active ? 'nav-button-active' : ''} className='navbar-button' to={link}>
+        <Link id={name === currentPage ? 'navbar-button-active' : ''} className='navbar-button' to={link}>
             {name}
         </Link>
     );

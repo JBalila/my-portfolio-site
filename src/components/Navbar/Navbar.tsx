@@ -3,12 +3,16 @@ import IconLink from '../Icon/IconLink';
 
 import './navbar.css';
 
-export default function Navbar() {
+interface NavbarProps {
+    currentPage: string
+}
+
+export default function Navbar({currentPage}: NavbarProps) {
     return(
         <div className='navbar-container'>
             <div className='left-side'>
-                <NavButton name='Home' link='/' />
-                <NavButton name='Projects' link='/projects' />
+                <NavButton name='Home' link='/' currentPage={currentPage} />
+                <NavButton name='Projects' link='/projects' currentPage={currentPage} />
             </div>
 
             <div className='right-side'>

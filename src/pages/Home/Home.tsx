@@ -7,7 +7,7 @@ import './home.css';
 export default function Home() {
     return(
         <div className='page'>
-            <Navbar />
+            <Navbar currentPage='Home' />
             <div className='home-container'>
                 {/* Left third of page */}
                 <div className='home-bio'>

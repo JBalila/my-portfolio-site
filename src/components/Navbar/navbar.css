@@ -29,6 +29,10 @@
   background-color: rgb(81, 91, 102);
 }
 
+#navbar-button-active {
+  background-color: rgb(75, 84, 93);
+}
+
 .left-side {
   display: flex;
   flex-direction: row;
