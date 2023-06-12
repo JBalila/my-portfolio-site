@@ -1,6 +1,6 @@
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
-import { IMAGES_FOLDER } from '../../functions/globalConstants';
+import { IMAGES_FOLDER } from '../../globals/globalConstants';
 
 import './home.css';
 

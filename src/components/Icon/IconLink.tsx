@@ -1,4 +1,4 @@
-import { IMAGES_FOLDER } from '../../functions/globalConstants';
+import { IMAGES_FOLDER } from '../../globals/globalConstants';
 
 import './icon.css';
 
